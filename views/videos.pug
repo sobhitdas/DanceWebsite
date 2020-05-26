@@ -1,0 +1,22 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style 
+    style
+        include ../static/style.css  
+        include ../static/stylevideos.css  
+
+block content
+    div.box
+        video(controls='')
+            source(src='/static/video1.mp4' type='video/mp4')
+            | Your browser does not support the video tag.
+        video(controls='')
+            source(src='/static/video2.mp4' type='video/mp4')
+            | Your browser does not support the video tag.
+        video(controls='')
+            source(src='/static/video3.mp4' type='video/mp4')
+            | Your browser does not support the video tag.
+

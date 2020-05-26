@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+video{
+    width:200vh;
+    height:100vh;
+    display:block;
+    padding:35px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    outline: none;
+    border: 5px solid rgb(119, 108, 108);
+    border-width: 20px;
+    object-fit: cover;
+    box-shadow: chartreuse;
+}

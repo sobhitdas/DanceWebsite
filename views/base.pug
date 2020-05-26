@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Harry Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/img/logo.png")
+                | HDA
+            li #[a(href="/") Home]
+            li #[a(href="/about") About]
+            li #[a(href="/gallery") Gallery]
+            li #[a(href="/videos") Videos]
+            li #[a(href="/contact") Contact Us]
+
+    block content
+    footer#footer
+        | Copyright ©  2019 HDA.com | All rights reserved

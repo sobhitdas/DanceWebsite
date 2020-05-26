@@ -1,0 +1,27 @@
+section {
+    height: 344px;
+    font-family: 'Bree Serif', serif;
+    margin: 3px 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: burlywood;
+}
+h1 {
+    font-size: 4rem;
+    margin-left: 500px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+p {
+    color: black;
+    line-height:32px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

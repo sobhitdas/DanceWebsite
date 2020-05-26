@@ -1,0 +1,52 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style 
+    style
+        include ../static/style.css  
+        include ../static/stylegallery.css  
+
+block content
+    h1 Some Famous Dance Forms
+    .row
+        .column
+            img(src="/static/1.jpg")
+            img(src="/static/2.jpg")
+            img(src="/static/3.jpg")
+            img(src="/static/1.jpg")
+            img(src="/static/4.jpg")
+            img(src="/static/11.jpg")
+            img(src="/static/12.jpg")
+            img(src="/static/8.jpg")
+        .column
+            img(src="/static/1.jpg")
+            img(src="/static/4.jpg")
+            img(src="/static/11.jpg")
+            img(src="/static/12.jpg")
+            img(src="/static/7.jpg")
+            img(src="/static/4.jpg")
+            img(src="/static/6.jpg")
+            img(src="/static/1.jpg")
+        
+           
+        .column
+            img(src="/static/3.jpg")
+            img(src="/static/7.jpg")
+            img(src="/static/5.jpg")
+            img(src="/static/12.jpg")
+            img(src="/static/4.jpg")
+            img(src="/static/1.jpg")
+            img(src="/static/9.jpg")
+            img(src="/static/10.jpg")
+
+        .column
+            img(src="/static/8.jpg")
+            img(src="/static/7.jpg")
+            img(src="/static/6.jpg")
+            img(src="/static/9.jpg")
+            img(src="/static/12.jpg")
+            img(src="/static/2.jpg")
+            img(src="/static/4.jpg")
+            img(src="/static/3.jpg")
